@@ -1,3 +1,32 @@
+body {
+  background-color: #080D11;
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-interface {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #tron-board {
   border: 1px solid black;
+  margin: 0 auto;
+}
+
+.game-btns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.btn {
+  display: block;
+  margin: 20px 0 20px 0;
+  height: 40px;
+  width: 50%;
 }
