@@ -1,5 +1,6 @@
 body {
-  background-color: #080D11;
+  background-color: #242728;
+  font-family: 'Orbitron', sans-serif;
 }
 
 header {
@@ -7,6 +8,23 @@ header {
   margin: 0 auto;
 }
 
+.score-board {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  height: 90px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 85%;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
 .main-interface {
   display: flex;
   justify-content: center;
@@ -24,9 +42,17 @@ header {
   width: 100%;
   align-items: center;
 }
+
 .btn {
   display: block;
   margin: 20px 0 20px 0;
   height: 40px;
   width: 50%;
 }
+
+
+/* colors used:
+grid: #7C7C7C
+p1: #A32428
+p2: #1B7AA2
+*/
