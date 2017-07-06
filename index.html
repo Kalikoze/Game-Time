@@ -3,18 +3,29 @@
 <head>
   <meta charset="utf-8">
   <title>Game Time</title>
-  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 <body>
   <header>
-    <article class="logo"><img class="logo" src="lib/assets/Tron-logo.svg.png" alt="tron-logo"/>
+    <article class="logo"><img class="tron-logo" src="lib/assets/Tron-logo.svg.png" alt="tron-logo"/>
     </article>
     <article class="score-board">
       <div class="player-one"><h2>Player 1</h2>
         <div class="score player-one-score">0</div>
+        <div class="arrow-keys">
+          <img class="key" src="lib/assets/logos/004-keyboard-key-arrow-up.svg" alt="up-key"/>
+          <img class="key" src="lib/assets/logos/003-left-arrow-variant-key-on-keyboard.svg" alt="left-key"/>
+          <img class="key" src="lib/assets/logos/001-arrow-down-key-on-keyboard.svg" alt="down-key"/>
+          <img class="key" src="lib/assets/logos/002-keyboard-key-pointing-to-right.svg" alt="right-key"/>
+        </div>
       </div>
       <div class="player-two"><h2>Player 2</h2>
         <div class="score player-two-score">0</div>
+        <div class="arrow-keys">
+          <img class="key" src="lib/assets/logos/008-key-w-of-a-computer-keyboard.svg" alt="w-key"/>
+          <img class="key" src="lib/assets/logos/007-keyboard-key-a.svg" alt="a-key"/>
+          <img class="key" src="lib/assets/logos/006-keyboard-key-s.svg" alt="s-key"/>
+          <img class="key" src="lib/assets/logos/005-key-d-of-a-keyboard.svg" alt="d-key"/>
       </div>
     </article>
   </header>
@@ -27,9 +38,9 @@
     </article>
 
       <canvas id="tron-board" width="750" height="750"></canvas>
+      <!-- <div class="start-instruction">Press Spacebar to Begin Game</div> -->
 
     <article class="game-btns">
-      <div class="btn start-instruction">Press Spacebar to Begin Game Press Shift to Pause Game</div>
       <button class="btn reset-btn" type="button">Reset Game</button>
     </article>
 
