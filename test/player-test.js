@@ -1,4 +1,4 @@
-var { expect, assert } = require('chai');
+var { expect } = require('chai');
 var Player = require('../lib/Player.js');
 
 describe('Player functionality', function() {
