@@ -32,6 +32,10 @@ header {
   margin-top: 40px;
 }
 
+.level-winner {
+  padding: 30px;
+}
+
 .main-interface {
   display: flex;
   justify-content: center;
@@ -40,7 +44,7 @@ header {
 
 #tron-board {
   border: .5px solid black;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
 }
 
 .game-btns {
