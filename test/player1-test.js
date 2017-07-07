@@ -1,5 +1,4 @@
-var { expect, assert } = require('chai');
-var Player = require('../lib/Player.js');
+var { expect } = require('chai');
 var Player1 = require('../lib/Player1.js');
 
 
@@ -33,8 +32,7 @@ describe('Player1 functionality', function() {
 
   it('Should check for collision against player2, and itself', function() {
 
-    expect(Player1Position).to.equal = [10, 10, 30, 30]
-    console.log(player1);
+    expect(Player1.trail[0]).to.equal = [10, 10, 30, 30]
     player1.checkPlayer1Collision();
     expect(Player1.trail[5]).to.equal = [5, 5, 25, 25]
   })
